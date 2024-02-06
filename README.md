@@ -27,7 +27,7 @@ I will also need the use of database, possibly MongoDB to store the information 
 
 ## HTML deliverable
 
-➡️ The following is an example of the required information for the `Startup HTML` deliverable
+➡️ information for the `Startup HTML` deliverable
 
 For this deliverable I built out the structure of my application using HTML.
 
