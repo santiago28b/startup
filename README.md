@@ -31,15 +31,9 @@ I will also need the use of database, possibly MongoDB to store the information 
 
 For this deliverable I built out the structure of my application using HTML.
 
-- **HTML pages** - Two HTML page that represent the ability to login and vote.
-- **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
-- **Text** - Each of the voting choices is represented by a textual description.
-- **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
-- **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
-- **WebSocket** - The count of voting results represent the tally of realtime votes.
-
- - [x] Create New Project in Xcode
-- [x] Add a view for the front side of the flashcard to display the question
-- [x] Add a view for the back side of the flashcard to display the answer
-- [x] Build in logic to show the answer side when the card is tapped
-- [x] Push code to GitHub
+- [x] **HTML pages** - Four HTML page that represent the home page, clients page, employees page and about page.
+- [x] **Links** - The login page automatically links to the clients page. all home pages contain links to the other pages.
+- [x] **Text** - Each pages has information about clients or employees depending on what page you are on.
+-  [x] **Images** - I added a basic image that shows the ability to include images and modify its size
+- [x] **DB/Login** - Input box and submit button for login.
+-[x]  **WebSocket** - The count of clients and employees and the money it is generating as a placeholder.
