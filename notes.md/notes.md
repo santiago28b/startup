@@ -14,3 +14,6 @@ It is important to set up a domain name and link it to DNS records in AWS
 I just made the connection secure using my Caddyfile and following the steps in https://learn.cs260.click/page/webServers/https/https_md
 
 ### HTML NOTES
+
+### Deploying the app
+I learned about running the script that will deploy or in other words make my site live in the web. there is a script that we have to run using the location for the pem key and our domain name or maybe our subdomain.
