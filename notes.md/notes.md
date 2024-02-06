@@ -13,3 +13,4 @@ It is important to set up a domain name and link it to DNS records in AWS
 
 I just made the connection secure using my Caddyfile and following the steps in https://learn.cs260.click/page/webServers/https/https_md
 
+### HTML NOTES
