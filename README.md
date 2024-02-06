@@ -24,6 +24,9 @@ I will also need the use of database, possibly MongoDB to store the information 
 ### rough Sketch of the app
 <img width="625" alt="Screen Shot 2024-01-10 at 7 53 32 PM" src="https://github.com/santiago28b/startup/assets/111794648/a9bd542a-0d94-44a1-b379-416979490f3c">
 
+### Deploying the app
+I learned about running the script that will deploy or in other words make my site live in the web. there is a script that we have to run using the location for the pem key and our domain name or maybe our subdomain.
+
 
 
    
