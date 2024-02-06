@@ -36,4 +36,4 @@ For this deliverable I built out the structure of my application using HTML.
 - [x] **Text** - Each pages has information about clients or employees depending on what page you are on.
 -  [x] **Images** - I added a basic image that shows the ability to include images and modify its size
 - [x] **DB/Login** - Input box and submit button for login.
--[x]  **WebSocket** - The count of clients and employees and the money it is generating as a placeholder.
+- [x]  **WebSocket** - The count of clients and employees and the money it is generating as a placeholder.
