@@ -17,3 +17,7 @@ I just made the connection secure using my Caddyfile and following the steps in 
 
 ### Deploying the app
 I learned about running the script that will deploy or in other words make my site live in the web. there is a script that we have to run using the location for the pem key and our domain name or maybe our subdomain.
+
+## CSS notes
+
+CSS was a bit tricky for me, I think I need more experience with CSS but Boostrap is such a great help. the templates helped so mucuh to get things done in a timely manner. Make sure to keep practicing with css and understanding how it works
