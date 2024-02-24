@@ -21,3 +21,29 @@ I learned about running the script that will deploy or in other words make my si
 ## CSS notes
 
 CSS was a bit tricky for me, I think I need more experience with CSS but Boostrap is such a great help. the templates helped so mucuh to get things done in a timely manner. Make sure to keep practicing with css and understanding how it works
+
+
+## Midterm review
+
+this command makes the script executable:
+chmod +x deploy.sh
+
+changed mode to x for executable.
+
+ls -la will open every file.
+
+understnad how the reduce function works.
+
+## what is a valid Json?
+everything that has double strings is counted as Json.
+
+Javascript object != Json object
+
+## DNS
+To point to anpother DNS record, ypu should use the following DNS record type: CNAME
+
+DOM text Content
+will sets the child text for an element
+
+
+
