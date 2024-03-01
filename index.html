@@ -39,12 +39,13 @@
     </header>
     <main class="container-fluid bg-secondary text-center">
       <h1>Welcome</h1>
+      
       <p>Login to your account</p>
-      <form method="get" action="clients.html">
-        <label for="name">Name</label>
+        <div>
+
         <input type="text" id="name" placeholder="Your name here" />
-        <button type="submit">Login</button>
-      </form>
+        <button  type="submit" id="test" onclick="login()">Login</button>
+      </div>
     </main>
 
     <footer>
@@ -53,5 +54,7 @@
       <br />
       <a href="https://github.com/santiago28b/startup" style="color: white;">GitHub</a>
     </footer>
+    <script src="clients.js"></script>
+      <script src="login.js"></script>
   </body>
 </html>
