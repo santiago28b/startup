@@ -43,3 +43,6 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
+function removeRow(){
+  document.getElementById("show").deleteRow(ids)
+}
