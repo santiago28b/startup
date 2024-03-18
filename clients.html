@@ -52,7 +52,7 @@
         </thead>
       </table>
 
-      <table class="table table-striped">
+      <table class="table table-striped" >
         <thead>
           <tr>
             <th>Total number of clients</th>
@@ -61,35 +61,36 @@
         </thead>
         <tbody>
             <tr>
-                <td>3</td>
-                <td>$10000</td>
+                <td id="totalClient">3</td>
+                <td id="totalMoney">$10000</td>
             </tr>
         </tbody>
       </table>
 
-      <button class="btn btn-primary" type="submit" onclick="openForm()">Add Client</button>
-      <button class="btn btn-primary" type="button" onclick="openForm()">Remove Client</button>
-      <div class="form-popup" id="myForm">
-
+      <button class="btn btn-primary" type="submit" onclick="openAddForm()">Add Client</button>
+      <button class="btn btn-primary" type="button" onclick="openRemoveForm()">Remove Client</button>
+      
+      <div class="form-popup" id="addClientForm">
       <form action="" class="form-container">
         <h1>Add Client</h1>
         <label for="cliente"><b>Client</b></label>
         <input type="text" name="cliente"  id="cliente" placeholder="Jon Doe" required>
         <label for="amount"><b>Amount</b></label>
         <input type="text" name="amount" id="amount" placeholder="0" required>
-        <button type="button" class="btn" value="Add" onclick="addRow()"> Add </button>
+        <button type="button" class="btn" value="Add" onclick="addRow(); update()"> Add </button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
     </div>
     
+    <div class="form-popup" id ="removeClientForm">
     <form action="" class="form-container">
       <h1>Remove Client</h1>
       <label for="cliente"><b>Client</b></label>
         <input type="text" name="clienteID"  id="clienteID" placeholder="0" required>
-      <button class="btn btn-primary" type="button" onclick="removeRow()">Remove Client</button>
+      <button class="btn btn-primary" type="button" onclick="removeRow(document.getElementById('clienteID').value); update()">Remove</button>
       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
     </form>
-  
+  </div>
     </main>
 
     <footer>

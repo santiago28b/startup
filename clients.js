@@ -35,14 +35,56 @@ function addRow(){
 }
 
 
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
+function openAddForm() {
+  document.getElementById("addClientForm").style.display = "block";
+  document.getElementById("removeClientForm").style.display = "none";
+
+}
+function openRemoveForm() {
+  document.getElementById("addClientForm").style.display = "none";
+  document.getElementById("removeClientForm").style.display = "block";
 }
 
 function closeForm() {
-  document.getElementById("myForm").style.display = "none";
+  document.getElementById("addClientForm").style.display = "none";
+  document.getElementById("removeClientForm").style.display = "none";
 }
 
-function removeRow(){
-  document.getElementById("show").deleteRow(ids)
+function removeRow(idToRemove){
+  let table = document.getElementById("show");
+ // document.getElementById("show").deleteRow(ids);
+ for(let i =0; i < list1.length; i++){
+  console.log(list1[i]);
+  if(list1[i] == idToRemove){
+            table.deleteRow(i + 1); // Adjust index to account for table header row
+            list1.splice(i, 1);
+            list2.splice(i, 1);
+            list3.splice(i, 1);
+            list4.splice(i, 1);
+            n--;
+            x--;
+            ids--;
+            break;
+  }
+ }
 }
+
+function update(){
+  var table = document.getElementById("show")
+var sumval =0;
+var sumClients = 0;
+
+for(let i = 1; i < table.rows.length; i++){
+
+  sumval = sumval + parseInt(table.rows[i].cells[2].innerHTML);
+  
+}
+document.getElementById("totalClient").innerHTML = table.rows.length-1;
+document.getElementById("totalMoney").innerHTML = sumval;
+
+}
+
+
+
+
+
