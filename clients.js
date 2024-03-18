@@ -72,7 +72,7 @@ function removeRow(idToRemove){
 function update(){
   var table = document.getElementById("show")
 var sumval =0;
-var sumClients = 0;
+
 
 for(let i = 1; i < table.rows.length; i++){
 

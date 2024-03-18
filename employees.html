@@ -37,7 +37,7 @@
     </header>
 
     <main class="container-fluid bg-secondary text-center">
-      <table class="table">
+      <table class="table" id="show">
         <thead class="thead-dark">
           <tr>
             <th scope="col">ID</th>
@@ -46,43 +46,50 @@
             <th scope="col">phone Number</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>employee 1</td>
-            <td>34</td>
-            <td>801-348-9032</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>employee 2</td>
-            <td>29</td>
-            <td>800-938-9384</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>employee 3</td>
-            <td>7</td>
-            <td>333-456-7890</td>
-          </tr>
-        </tbody>
       </table>
       <br>
       <table class="table table-striped">
         <thead>
-            <th>Total number of employee</th>
-              <th>total pay</th>
+            <th id="totalEmployee">Total number of employee</th>
+              <th id="totalMoney">total pay</th>
         </thead>
         <tbody>
             <tr>
-                <td>3</td>
-                <td>$4500</td>
+                <td id="empNum">3</td>
+                <td id="empMoney">$4500</td>
             </tr>
         </tbody>
       </table>
-      <button class="btn btn-primary" type="submit">Add Employee</button>
-      <button class="btn btn-primary" type="submit">Remove Employee</button>
-      <button class="btn btn-primary" type="submit">Edit Employee</button>
+      <button class="btn btn-primary" type="submit" onclick="openAddForm()">Add Employee</button>
+      <button class="btn btn-primary" type="button" onclick="openRemoveForm()">Remove Employee</button>
+
+      <div class="form-popup" id="addEmployeeForm">
+        <form action="" class="form-container">
+          <h1>Add Employee</h1>
+          <label for="employee"><b>Employee</b></label>
+          <input type="text" name="employee"  id="employee" placeholder="Jon Doe" required>
+          <label for="amount"><b>Amount</b></label>
+          <input type="text" name="amount" id="amount" placeholder="0" required>
+          <label for="phone" name="phone" id="phoneLabel" aria-placeholder="000-000-0000"><b>Phone</b></label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+          <br>
+          <button type="button" class="btn" value="Add" onclick="addRow(); update()"> Add </button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <div class="form-popup" id="removeEmployeeForm">
+        <form action="" class="form-container">
+          <h1>Remove Employee</h1>
+          <label for="cliente"><b>Employee</b></label>
+        <input type="text" name="EmployeeID"  id="employeeID" placeholder="0" required>
+      <button class="btn btn-primary" type="button" onclick="removeRow(document.getElementById('employeeID').value); update()">Remove</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+
+
+      </div>
+
     </main>
 
     <footer>
@@ -92,6 +99,7 @@
       <a href="https://github.com/santiago28b/startup" style="color: white;">GitHub</a>
     </footer>
   
-
+    <script src="employee.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
