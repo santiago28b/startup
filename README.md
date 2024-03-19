@@ -51,3 +51,14 @@ For this deliverable I built out the style of my application using CSS and Boost
 - [x] - done -  Responsive to window resizing. Looks great on iPad, desktop, and iPhone.
 - [x] - done -  Application elements. Buttons are using bootstrap
 
+## JavaScript deliverable
+➡️ information for the `Startup JavaScript` deliverable
+
+For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
+
+- [x] - done - login: When you press the login button it takes you to the clients manager page.
+- [x] - done - database: Displayed the client and employee counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+- [] - in progress - application Logic: pull the biggest account based on money or employee number
+- [x] - done -  functionality to add, remove and update the data for employees and clients
+
+
