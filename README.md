@@ -58,7 +58,8 @@ For this deliverable I implemented by JavaScript so that the application works f
 
 - [x] - done - login: When you press the login button it takes you to the clients manager page.
 - [x] - done - database: Displayed the client and employee counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-- [] - in progress - application Logic: pull the biggest account based on money or employee number
+- [x] - done - application Logic: pull the biggest account based on money or employee number
 - [x] - done -  functionality to add, remove based on ID and update the data for employees and clients
+- [x] - done - mock Websocket. Clients page will generate mock data every 5 seconds adding a new client
 
 
