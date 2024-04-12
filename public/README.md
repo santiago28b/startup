@@ -62,4 +62,15 @@ For this deliverable I implemented by JavaScript so that the application works f
 - [x] - done -  functionality to add, remove based on ID and update the data for employees and clients
 - [x] - done - mock Websocket. Clients page will generate mock data every 5 seconds adding a new client
 
+## Service deliverable
+➡️ The following is an example of the required information for the Startup Service deliverable
+
+For this deliverable I added backend endpoints that asks riddle everytime you load the about page
+
+- [x] - done -  Node.js/Express HTTP service - done!
+ - [x] - done - Static middleware for frontend - done!
+- [x] - done -  Calls to third party endpoints - I didn't have time to implement this. 😔
+ - [x] - done - Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for voting.
+- [x] - done -  Frontend calls service endpoints - I did this using the fetch function.
+
 
