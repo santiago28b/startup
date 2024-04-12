@@ -1,5 +1,5 @@
-function displayRiddle(data) {
-    fetch('https://riddles-api.vercel.app/random')
+function displayRiddle(data) { //  https://riddles-api.vercel.app/random
+    fetch('https://api.quotable.io/random')
       .then((response) => response.json())
       .then((data) => {
         const containerEl = document.querySelector('#riddle');
