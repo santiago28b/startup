@@ -1,5 +1,5 @@
 function displayQuote(data) {
-    fetch('https://api.quotable.io/random')
+    fetch('https://riddles-api.vercel.app/random')
       .then((response) => response.json())
       .then((data) => {
         const containerEl = document.querySelector('#quote');
