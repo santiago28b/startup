@@ -1,20 +1,22 @@
-function displayRiddle(data) { //  https://riddles-api.vercel.app/random
+function displayRiddle(data) { //  
     console.log("este el el api")
-    fetch('https://api.quotable.io/random')
+    fetch('https://riddles-api.vercel.app/random')
       .then((response) => response.json())
       .then((data) => {
         const containerEl = document.querySelector('#riddle');
   
-        const quoteEl = document.createElement('p');
-        quoteEl.classList.add('riddle');
-        const authorEl = document.createElement('p');
-        authorEl.classList.add('author');
+        const riddleEl = document.createElement('p');
+        riddleEl.classList.add('riddle');
+        const answerEl = document.createElement('p');
+        answerEl.classList.add('answer');
   
-        quoteEl.textContent = data.content;
-        authorEl.textContent = data.author;
+        riddleEl.textContent = `Riddle: ${data.riddle}`;
+        answerEl.textContent = `Answer: ${data.answer}`;
   
-        containerEl.appendChild(quoteEl);
-        containerEl.appendChild(authorEl);
+        containerEl.appendChild(riddleEl);
+        containerEl.appendChild(answerEl);
       });
   }
   displayRiddle()
+
+  
