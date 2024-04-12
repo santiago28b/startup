@@ -67,10 +67,10 @@ For this deliverable I implemented by JavaScript so that the application works f
 
 For this deliverable I added backend endpoints that asks riddle everytime you load the about page
 
-- [x] - done -  Node.js/Express HTTP service - done!
- - [x] - done - Static middleware for frontend - done!
-- [x] - done -  Calls to third party endpoints - I didn't have time to implement this. 😔
- - [x] - done - Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for voting.
+- [x] - done -  Node.js/Express HTTP service 
+ - [x] - done - Static middleware for frontend
+- [x] - done -  Calls to third party endpoints
+ - [x] - done - Backend service endpoints
 - [x] - done -  Frontend calls service endpoints - I did this using the fetch function.
 
 
