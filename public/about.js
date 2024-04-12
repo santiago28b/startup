@@ -1,4 +1,5 @@
 function displayRiddle(data) { //  https://riddles-api.vercel.app/random
+    console.log("este el el api")
     fetch('https://api.quotable.io/random')
       .then((response) => response.json())
       .then((data) => {
@@ -16,4 +17,4 @@ function displayRiddle(data) { //  https://riddles-api.vercel.app/random
         containerEl.appendChild(authorEl);
       });
   }
-  displayQuote()
+  displayRiddle()
