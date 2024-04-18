@@ -70,7 +70,6 @@ For this deliverable I added backend endpoints that asks riddle everytime you lo
 - [x] - done -  Node.js/Express HTTP service 
  - [x] - done - Static middleware for frontend
 - [x] - done -  Calls to third party endpoints
- - [x] - done - Backend service endpoints
 - [x] - done -  Frontend calls service endpoints - I did this using the fetch function.
 
 
