@@ -21,3 +21,15 @@ I will use Websocket so the data of the new goals being created can be shared to
 ### rough Sketch of the app
 <img width="931" alt="Screenshot 2024-09-14 at 8 27 02 PM" src="https://github.com/user-attachments/assets/124f540d-7948-4986-83e8-50c51779a332">
 
+## HTML deliverable
+
+➡️ information for the `Startup HTML` deliverable
+
+For this deliverable I built out the structure of my application using HTML.
+
+- [x] **HTML pages** - three HTML page that represent the home page, habits page, and about page.
+- [x] **Links** - The login page automatically links to the habits page. all home pages contain links to the other pages.
+- [x] **Text** - Each pages has information about habits and puroise of the webiste depending on what page you are on.
+-  [x] **Images** - I added a basic image that shows the ability to include images and modify its size
+- [x] **DB/Login** - Input box and submit button for login and the the current habits that stores the habits.
+- [x]  **WebSocket** - The count of habits is being generated online as a placeholder.
