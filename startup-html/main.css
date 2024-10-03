@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+  }
+header nav ul {
+    font-size: large;
+}
