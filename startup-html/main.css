@@ -15,5 +15,5 @@ main {
   }
   .bg-secondary{
     --bs-bg-opacity:1;
-    background-color: rgb(172, 174, 118) !important;
+    background-color: rgb(234, 235, 225) !important;
   }
