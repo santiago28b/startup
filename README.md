@@ -33,3 +33,16 @@ For this deliverable I built out the structure of my application using HTML.
 -  [x] **Images** - I added a basic image that shows the ability to include images and modify its size
 - [x] **DB/Login** - Input box and submit button for login and the the current habits that stores the habits.
 - [x]  **WebSocket** - The count of habits is being generated online as a placeholder.
+
+## CSS deliverable
+➡️ information for the `Startup CSS` deliverable
+
+For this deliverable I built out the style of my application using CSS and Boostrap framework.
+
+- [x] - done - Prerequisite: Simon CSS deployed to your production environment
+- [x] - done - Prerequisite: A link to your GitHub startup repository prominently displayed on your application's home page
+- [x] - done - Prerequisite: Notes in your startup Git repository README.md file
+- [x] - done -  Header, footer, and main content body. Used flex to layout sections.
+- [x] - done -  Navigation elements. Links highlight on hover.
+- [x] - done -  Responsive to window resizing. Looks great on iPad, desktop, and iPhone.
+- [x] - done -  Application elements. Buttons are using bootstrap
